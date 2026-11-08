@@ -25,14 +25,29 @@ h1, h2, h3 {
 section {
     background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmo5qJnAzmfiiJ5vc08bUGZpQ3DwAaLAH8eUm2bu4BuQ&s=10');
     height: 400px;
-    background-size: cover;
-    background-position: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    border-radius: 15px;
-    cursor: pointer;
 }
 
 p {
     font-family: 'Lora', serif;
+}
+
+img {
+    width: 400px;
+}
+
+@media screen and (min-width: 768px) /*and (max-width: px)*/ {
+    section {
+        background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmo5qJnAzmfiiJ5vc08bUGZpQ3DwAaLAH8eUm2bu4BuQ&s=10');
+        height: 400px;
+        background-size: cover;
+        background-position: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        border-radius: 15px;
+        cursor: pointer;
+    } 
+    
+    img {
+        width: 600px;
+    }
 }
